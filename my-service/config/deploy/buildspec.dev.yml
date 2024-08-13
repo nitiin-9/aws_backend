@@ -16,10 +16,11 @@ phases:
     on-failure: ABORT
     commands:
       - echo Deploying Resources
+      - ls -la my-service/my-artifact
       - serverless deploy --stage dev
 artifacts:
   files:
-    - my-service/my-artifact/**
+    - my-service/my-artifact/**/*
     - location
   name: MyProjectsArtifacts
 
