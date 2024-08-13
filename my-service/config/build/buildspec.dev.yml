@@ -9,7 +9,7 @@ phases:
       - echo Installing serverless CLI
       - npm i -g serverless
       - cd my-service
-      - Installing npm dependencies of notes service
+      - echo Installing npm dependencies of notes service
       - npm install
 
   build:
@@ -29,4 +29,3 @@ artifacts:
 cache:
   paths:
     - "my-service/node_modules/**/*"
-    - path
