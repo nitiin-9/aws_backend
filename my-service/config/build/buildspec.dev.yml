@@ -22,7 +22,7 @@ phases:
 
 artifacts:
   files:
-    - my-artifact/*
+    - my-service/my-artifact/**
     - location
   name: MyProjectsArtifacts
 
