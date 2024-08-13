@@ -16,7 +16,7 @@ phases:
     on-failure: ABORT
     commands:
       - echo Deploying Resources
-      - serverless deploy --stage dev
+      - serverless deploy --stage dev --verbose
 artifacts:
   files:
     - my-service/my-artifact/**/*
